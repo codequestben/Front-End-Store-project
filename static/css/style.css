@@ -75,3 +75,24 @@ h3{
 .header__logo{
     margin: 3rem 0;
 }
+
+/*Navegacion*/
+.nav{
+    background-color: var(--moradoOscuro);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    /*Nueva forma de separación*/
+    gap: 2rem;
+}
+
+.nav__link{
+    text-transform: uppercase;
+    color: var(--blanco);
+    font-family: var(--fuentePrincipal);
+    font-size: 3rem;
+}
+
+.nav__link:hover , .nav__link--activo{
+    color: var(--amarillo);
+}
